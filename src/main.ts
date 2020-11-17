@@ -1,5 +1,5 @@
-import 'angular';
+import { platformBrowserDynamic } from 'angular-ts-decorators';
+import'@uirouter/angularjs';
+import { AppModule } from './app/app.module';
 
-import './app/app';
-import './app/controllers';
-import './app/services';
+platformBrowserDynamic().bootstrapModule(AppModule);

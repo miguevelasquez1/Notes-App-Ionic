@@ -1,13 +1,13 @@
-<!--
-Create tabs with an icon and label, using the tabs-positive style.
-Each tab's child <ion-nav-view> directive will have its own
-navigation history that also transitions its views in and out.
--->
-<ion-tabs class="tabs-icon-top tabs-color-active-positive">
+<!-- <div>
+  <h1>{{$ctrl.title}}</h1>
+  <nav>
+    <a ui-sref="dashboard">Dashboard</a>
+    <a ui-sref="heroes">Heroes</a>
+  </nav>
+  <ui-view></ui-view>
+  <app-messages></app-messages>
+</div> -->
 
-  <!-- Notes App Tab -->
-  <ion-tab title="Create Note" icon-off="ion-edit" icon-on="ion-edit" href="#/tab/notes-app">
-    <ion-nav-view name="tab-notes-app"></ion-nav-view>
-  </ion-tab>
 
-</ion-tabs>
+<notes-app></notes-app>
+
