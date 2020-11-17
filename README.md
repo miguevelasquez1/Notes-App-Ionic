@@ -15,5 +15,6 @@
   <li>npm</li>
   <li>Typescript</li>
   <li>Angular 2+ (angular-ts-decorators)</li>
+  <li>Bootstrap</li>
   
 </ul>
