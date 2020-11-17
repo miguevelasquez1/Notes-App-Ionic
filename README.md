@@ -18,3 +18,7 @@
   <li>Bootstrap</li>
   
 </ul>
+
+<h2>Ejecución</h2>
+<p>1. Todo lo que está en la carpeta src debe ir en la carpeta www.</p>
+<p>2. Despues de hacer actualizaciones ejecutar npm run build y luego si ejecutar ionic serve.</p>
