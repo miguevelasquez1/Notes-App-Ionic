@@ -22,3 +22,12 @@
 <h2>Ejecución</h2>
 <p>1. Todo lo que está en la carpeta src debe ir en la carpeta www.</p>
 <p>2. Despues de hacer actualizaciones ejecutar npm run build y luego si ejecutar ionic serve.</p>
+
+<h3>PD:</h3>
+<p>No logré implementar Firebase a la aplicación debido a que el decorador "angular-ts-decorators" no contiene el paquete "@angular/core" (Actualmente en el repositorio no hay una base de datos que cubra a la app).
+ 
+ Pienso que no es una buena forma de migrar la app con ese decorador y mi propuesta es ir cambiando las configuraciones internas como sería ir configurando el polyfills para permitir el uso de ES6 y que cualquier navegador/dispositivo pueda tener acceso a la app. También instalar todas las dependencias de Angular actuales e ir migrando de a pocos. Encontré una solución para que AngularJS y Angular sean compatibles y sea bastante fácil la migración. https://codecraft.tv/courses/angularjs-migration/
+ 
+ Las versiones actuales de Ionic están empezando a deprecar cordova y no veo viable usar firebase conectado a Cordova, sino que desde un inicio se debería hacer un servicio especificamente para los métodos de firebase y conectarlos con los componentes (asó estén en AngularJS funciona).
+ 
+ </p>
