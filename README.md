@@ -28,6 +28,6 @@
  
  Pienso que no es una buena forma de migrar la app con ese decorador y mi propuesta es ir cambiando las configuraciones internas como sería ir configurando el polyfills para permitir el uso de ES6 y que cualquier navegador/dispositivo pueda tener acceso a la app. También instalar todas las dependencias de Angular actuales e ir migrando de a pocos. Encontré una solución para que AngularJS y Angular sean compatibles y sea bastante fácil la migración. https://codecraft.tv/courses/angularjs-migration/
  
- Las versiones actuales de Ionic están empezando a deprecar cordova y no veo viable usar firebase conectado a Cordova, sino que desde un inicio se debería hacer un servicio especificamente para los métodos de firebase y conectarlos con los componentes (asó estén en AngularJS funciona).
+ Las versiones actuales de Ionic están empezando a deprecar cordova y no veo viable usar firebase conectado a Cordova, sino que desde un inicio se debería hacer un servicio especificamente para los métodos de firebase en las ultimas versiones de Angular isntalando una dependencia de "@angular/firebase" y conectarlos con los componentes (así estén en AngularJS funciona).
  
  </p>
